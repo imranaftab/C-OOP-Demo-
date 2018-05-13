@@ -8,8 +8,8 @@ namespace DemoApp.Models
 {
     abstract class Employee
     {
-        private string _name;
-        private int _age;
+        protected string _name;
+        protected int _age;
 
         public Employee(string name, int age)
         {
